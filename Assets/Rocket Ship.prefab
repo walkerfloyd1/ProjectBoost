@@ -194,6 +194,7 @@ GameObject:
   - component: {fileID: 118415895}
   - component: {fileID: 118415894}
   - component: {fileID: 8235767249274393644}
+  - component: {fileID: 445686252713912807}
   m_Layer: 0
   m_Name: Rocket Ship
   m_TagString: Untagged
@@ -210,7 +211,7 @@ Transform:
   m_GameObject: {fileID: 4117573539895379238}
   m_LocalRotation: {x: 0, y: 0, z: 0.008019702, w: 0.9999679}
   m_LocalPosition: {x: 0, y: 0.63, z: 0}
-  m_LocalScale: {x: 1.112, y: 1, z: 1}
+  m_LocalScale: {x: 4.02, y: 2.32, z: 1}
   m_Children:
   - {fileID: 4117573539696219503}
   - {fileID: 3786902741556582831}
@@ -345,6 +346,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &445686252713912807
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4117573539895379238}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7639079131975950676
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,8 +477,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8291204527895243469}
   m_LocalRotation: {x: -0.004877872, y: -0.0001706707, z: -0.0043412833, w: 0.99997866}
-  m_LocalPosition: {x: 0.01, y: 3.25, z: 0}
-  m_LocalScale: {x: 1, y: 2.47035, z: 1}
+  m_LocalPosition: {x: 0.01, y: 3.25, z: -0.02}
+  m_LocalScale: {x: 0.8709216, y: 2.47035, z: 0.9681315}
   m_Children: []
   m_Father: {fileID: 4117573539895379237}
   m_RootOrder: 3
